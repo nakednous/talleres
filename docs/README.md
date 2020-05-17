@@ -19,5 +19,5 @@ layout: default
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>
 
-<script src="./docs/js/sketch.js"></script>
-<script src="./docs/js/shape.js"></script>
+<script src="./js/sketch.js"></script>
+<script src="./js/shape.js"></script>
