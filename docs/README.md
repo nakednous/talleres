@@ -1,16 +1,23 @@
-# Talleres OO
+---
+title: TangramJS
+permalink: index.html
+layout: default
+
+---
+
+# Talleres JS
 
 ## 1. Tangram
 
-### Propósito
+<div id="template_js">
+<!-- Ellipses sketch will go here! -->  
+</div>
 
-Repasar los conceptos fundamentales de la [programación estructurada](http://objetos.github.io/structured_programming) en la implementación del juego del [tangram](https://en.wikipedia.org/wiki/Tangram).
+<!-- Javascript Code -->
+<!-- Adjust sketch size to 600x338px  -->
 
-### Tareas
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>
 
-Emplee la plantilla adjunta (encontrada en la carpeta `Tangram`) para la realización de las siguientes tareas del juego:
-
-1. Dibujo de las piezas.
-2. Selección y manipulación de las piezas (ratón y teclado).
-3. Verificación de resultados.
-4. Creación de niveles (opcional).
+<script src="./docs/js/sketch.js"></script>
+<script src="./docs/js/shape.js"></script>
