@@ -6,7 +6,7 @@ class Rect extends Shape {
 
   drawShape() {
     rectMode(CENTER);
-    rect(0, 0, edge(), edge());
+    rect(0, 0, edge, edge);
   }
 
   get edge() {
