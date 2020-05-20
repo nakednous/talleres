@@ -10,10 +10,10 @@ class Rect extends Shape {
   }
 
   get edge() {
-    return this.edge;
+    return this._edge;
   }
 
   set edge(value) {
-    this.edge = value;
+    this._edge = value;
   }
 }
