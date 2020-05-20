@@ -1,13 +1,12 @@
 class Rect extends Shape {
   constructor () {
     super();
-    //this.set
     this.edge = 100;
   }
 
   drawShape() {
     rectMode(CENTER);
-    rect(0, 0, this.edge(), this.edge());
+    rect(0, 0, this.edge, this.edge);
   }
 
   get edge() {
