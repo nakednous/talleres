@@ -9,7 +9,7 @@ class Shape {
     push();
     fill(this.tinte);
     translate(this.posicion.x, this.posicion.y);
-    drawShape();
+    this.drawShape();
     pop();
   }
 
