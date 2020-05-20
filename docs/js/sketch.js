@@ -5,7 +5,7 @@ function setup () {
   canvas = createCanvas(600, 338);
   canvas.parent('template_js');
   for (let i = 0; i < 7; i++) {
-    shapes[i] = new Shape();
+    shapes[i] = new Rect();
   }
 }
 
