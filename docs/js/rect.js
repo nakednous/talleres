@@ -1,5 +1,6 @@
 class Rect extends Shape {
   constructor () {
+    super();
     this.setEdge(100);  
   }
 
