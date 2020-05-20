@@ -21,3 +21,4 @@ layout: default
 
 <script src="./js/sketch.js"></script>
 <script src="./js/shape.js"></script>
+<script src="./js/rect.js"></script>

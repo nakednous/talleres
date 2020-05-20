@@ -9,7 +9,13 @@ class Shape {
     push();
     fill(this.tinte);
     translate(this.posicion.x, this.posicion.y);
-    rect(0, 0, this.dim, this.dim);
+    drawShape();
     pop();
+  }
+
+  // JS doesn't have abstract methods, see:
+  // https://medium.com/@yuribett/javascript-abstract-method-with-es6-5dbea4b00027
+  drawShape() {
+    throw new Error('You have to implement the method drawShape!');
   }
 }
